@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Documentation Projet - Site HTML</title>
+    <link rel="stylesheet" href="/css/theme.css"/>
+    <link rel="stylesheet" href="/css/index.css"/>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <button class="back-btn" onclick="window.history.back()"></button>
+            <h1>Documentation du Projet : Site HTML</h1>
+            <button class="theme-toggle" id="themeToggle"></button>
+        </div>
+    </header>
+    <div class="main-content">
+
+        <!-- Navigation -->
+        <nav class="menu">
+            <a href="/">
+                <button class="btn">Accueil</button>
+            </a>
+            <a href="/veille.html">
+                <button class="btn">Veille Technologique</button>
+            </a>
+            <a href="/projets.html">
+                <button class="btn">Projets</button>
+            </a>
+            <a href="/formation.html">
+                <button class="btn">Formation</button>
+            </a>
+            <a href="/competences.html">
+                <button class="btn">Compétences</button>
+            </a>
+            <a href="/contact.html">
+                <button class="btn">Contact</button>
+            </a>
+        </nav>
+        <!-- contenu de la page de description-->
+
+        <div class="container">
+            <h2>Présentation du projet</h2>
+
+            <!--screen 1-->
+
+            <div class="documentation">
+                <img src="/images/stages/stage_1/LoadImage_1.png" alt="Capture d'écran du projet">
+                <div class="description">
+                    <h3>chargement des images : </h3>
+                    <p>
+                        Ce script C# est un extrait de la methode LoadImage qui permet de charger les images afin de les afficher. <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <!--screen 2 -->
+            <div class="documentation">
+                <img src="/images/stages/stage_1/ShowNextImage_1.png"alt="Capture d'ecran du tableau">
+                <div class="description">
+                    <h3>Affichage de l'image suivante : </h3>
+                    <p>
+                        Cette image est un Extrait de la méthode ShowNextImage. <br>
+                        Elle permet d'afficher les images suivantes parmi la liste d'image préalablement chargées.
+                        
+                    </p>
+                </div>
+            </div>
+
+            <!--screen 3 -->
+            <div class="documentation">
+                <img src="/images/stages/stage_1/Transitions_1.png"alt="Capture d'ecran du tableau">
+                <div class="description">
+                    <h3>Transition d'image : </h3>
+                    <p>
+                        Ce script est un extrait de la méthode Transitions qui permet d'avoir une transition fluide entre chaque images.
+                    </p>
+                </div>
+            </div>
+
+            <!--screen 4 -->
+            <div class="documentation">
+                <img src="/images/stages/stage_1/refresh_folderLocal.png"alt="Capture d'ecran des images">
+                <div class="description">
+                    <h3>Mise a jour du dossier : </h3>
+                    <p>
+                        Ce script issu de la méthode refresh_folderLocal permet de rafraichir la liste d'image présente dans dossier en allant regarder le dossier partagé. <br>
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/theme.js"></script>
+</body>
+</html>

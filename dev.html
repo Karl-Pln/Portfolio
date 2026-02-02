@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projets de Développement</title>
+    <link rel="stylesheet" href="css/theme.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <button class="back-btn" onclick="window.history.back()"></button>
+            <h1>Projets de Développement</h1>
+            <button class="theme-toggle" id="themeToggle"></button>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <!-- Navigation -->
+        <nav class="menu">
+            <a href="/">
+                <button class="btn">Accueil</button>
+            </a>
+            <a href="veille.html">
+                <button class="btn">Veille Technologique</button>
+            </a>
+            <a href="projets.html">
+                <button class="btn">Projets</button>
+            </a>
+            <a href="formation.html">
+                <button class="btn">Formation</button>
+            </a>
+            <a href="competences.html">
+                <button class="btn">Compétences</button>
+            </a>
+            <a href="contact.html">
+                <button class="btn">Contact</button>
+            </a>
+        </nav>
+
+        <!-- Conteneur principal pour le contenu de la page -->
+        <div class="card-container">
+            <a class="card" href="documentation/site-html.html">
+                <h3 class="card-title">Projet Site html</h3>
+                <img class="card-img" src="images/logo/html.png" alt="Logo html">
+                <p>Création d'un site web statique en HTML et CSS pour découvrir les langages et leur fonctionnalitées.</p>
+            </a>
+            <a class="card" href="documentation/portfolio.html">
+                <h3 class="card-title">Projet Portfolio</h3>
+                <img class="card-img" src="images/logo/portfolio.png" alt="Logo Portfolio">
+                <p>Création d'un site web parcourant ma formation et mes différents projets.</p>
+            </a>
+            <a class="card" href="documentation/mvc.html">
+                <h3 class="card-title">Projet MVC</h3>
+                <img class="card-img" src="images/logo/mvc.png" alt="Logo MVC">
+                <p>Création d'un site dynamique permettant la découverte et la pratique de base de données et de PHP.</p>
+            </a>
+        </div>
+
+        <div class="retour-btn">
+            <a href="projets.html">
+                <button class="btn">Retour</button>
+            </a>
+        </div>
+
+    </div>
+
+    <script src="js/theme.js"></script>
+</body>
+</html>
